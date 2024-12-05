@@ -28,8 +28,19 @@ This is a simple React application that fetches and displays random quotes. User
 
 4. Open your browser and navigate to `http://localhost:3000` to view the app.
 
-## Usage
+## Usage 
 - Click the "Get New Quote" button to fetch a random quote from the Quotable API.
 - The quote and its author will be displayed on the screen.
 
-## File Structure
+## File Structure 
+  public/
+└── index.html
+src/
+├── App.css
+├── App.js
+├── App.test.js
+├── components/
+│ ├── QuoteButton.js
+│ └── QuoteCard.js
+├── index.js
+└── reportWebVitals.js
