@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Matemasie&display=swap');
+
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background:#7b9c95; 
+  
+}
+
+.app {  
+  opacity:0.9;
+  text-align: center;
+  background: #148065;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote-card {
+  margin-bottom: 20px; 
+  border: 2px solid #4925a4; 
+  outline:2px solid #020a10;
+}
+
+.quote {
+  font-size: 1.5rem; 
+  font-family: Matemasie;
+  color: #4925a4; 
+  word-spacing: 0.2em;
+}
+
+.author {
+  font-size: 1rem;
+  color: #020a10;
+}
+
+.quote-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quote-button:hover {
+  background-color: #0056b3;
+}
+
